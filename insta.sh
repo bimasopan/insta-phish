@@ -32,7 +32,7 @@ clear
 if [ "$option" -eq 0 ];then
    npm run main
 else
-   ./server.sh
+   bash template/server.sh
 #    xterm -e php -S localhost:$port & gnome-terminal -- bash -c 'ngrok http 80;exec bash'
 #    gnome-terminal -- bash -c 'ngrok http 80;exec bash'
 fi
